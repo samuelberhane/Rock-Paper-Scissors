@@ -1,0 +1,29 @@
+body {
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  color: antiquewhite;
+  align-items: center;
+}
+h1 {
+  color: aliceblue;
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 24px;
+  color: white;
+  background-color: rgb(13, 103, 206);
+  border-radius: 20px;
+  border: none;
+  box-shadow: rgba(196, 100, 220, 0.8) 6px 5px 20px;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transform: translateX(-2px);
+  box-shadow: rgba(0, 100, 00, 0.8) 1px 1px 10px;
+}
